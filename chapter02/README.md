@@ -11,3 +11,15 @@
 - f'~~~' (2023 NEW)
 - 구분기호
 - 정렬
+
+## 파이썬 변수
+
+### 다양한 변수 선언법
+- 변수 할당 설명
+- Object Identity
+    - id 값 신기하다
+- 변수 네이밍 규칙
+    - Camel Case :  numberOfCollegeGraduates -> Method
+    - Pascal Case :  NumberOfCollegeGraduates -> Class
+    - Snake Case :  number_of_college_graduates -> 파이썬 변수
+- 예약어
