@@ -134,11 +134,12 @@ for i in im_str:
 str_sl = 'Nice Python'
 
 # 슬라이싱 연습
-print(str_sl[0:3])
-print(str_sl[:len(str_sl)])
-print(str_sl[:len(str_sl) - 1])
+print(str_sl[0:3]) # 0 1 2
+print(str_sl[5:]) # [5:11]
+print(str_sl[:len(str_sl)]) # str_sl[:11]
+print(str_sl[:len(str_sl) - 1]) # str_sl[:10]
 print(str_sl[:])
-print(str_sl[1:4:2])
+print(str_sl[1:9:2])
 print(str_sl[-4:-2])
 print(str_sl[1:-2])
 print(str_sl[::-1])
@@ -148,5 +149,5 @@ print(str_sl[::2])
 # 아스키코드
 a = 'z'
 
-print(ord(a))
-print(chr(122))
+print(ord(a)) # 아스키 코드로
+print(chr(122)) # 문자로
