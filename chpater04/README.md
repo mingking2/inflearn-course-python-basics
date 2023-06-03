@@ -13,4 +13,13 @@
 - 반복문 중요성
 - 기본 For 사용
 - For 문 패턴 실습
-- For-Else 구문ㅁ
+- For-Else 구문
+
+
+## Chapter 4-3. While
+### While 흐름제어 실습
+- While 기본 사용법
+- Break, Continue
+- While-Else 구문
+- 무한 반복 구문
+- 기본 패턴 실습
