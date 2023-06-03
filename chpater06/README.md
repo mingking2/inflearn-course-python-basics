@@ -7,3 +7,6 @@
 - Self 개념
 - 인스턴스 메소드
 - 클래스, 인스턴스 변수
+
+## Chapter 6-2. Module
+### 모듈(Module)
