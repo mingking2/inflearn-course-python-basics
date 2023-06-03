@@ -74,7 +74,7 @@ print()
 # 중요
 # *args, **kwargs
 
-# *args
+# *args(언팩킹) 
 def args_func(*args): # 매개변수 명 자유
     for i, v in enumerate(args):
         print('Result : {}'.format(i), v)
@@ -84,7 +84,7 @@ args_func('Lee')
 args_func('Lee', 'Park')
 args_func('Lee', 'Park', 'Kim')
 
-# **kwargs
+# **kwargs(언팩킹)
 def kwargs_func(**kwargs): # 매개변수 명 자유
     for v in kwargs.keys():
         print("{}".format(v), kwargs[v])
@@ -109,9 +109,11 @@ def nested_func(num):
     func_in_func(num + 100)
 
 nested_func(100)
+print()
 
 # 실행불가
 # func_in_func(1000)
+
 
 # 람다식 예제
 # 메모리 절약, 가독성 향상, 코드 간결
